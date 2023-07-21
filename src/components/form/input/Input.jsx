@@ -33,7 +33,7 @@ export default function Input({
       <label>{label}</label>
       <div className={`inputContainer ${isFocused ? 'focused' : ''}`}>
         <span>
-          <img src={icon} alt='icon' />
+          <img className={'inputIcons'} src={icon} alt='icon' />
         </span>
         <input
           type={type}
