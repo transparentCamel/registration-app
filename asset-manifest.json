@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/registration-app/static/css/main.e6c13ad2.css",
+    "main.js": "/registration-app/static/js/main.655e70a6.js",
+    "static/js/787.9bc4801a.chunk.js": "/registration-app/static/js/787.9bc4801a.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/registration-app/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/registration-app/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/illustration.svg": "/registration-app/static/media/illustration.3e5c3056a0e193e9b5a0e6406a736a48.svg",
+    "static/media/logo.svg": "/registration-app/static/media/logo.9495e13d91764931936740a0e26eb473.svg",
+    "index.html": "/registration-app/index.html",
+    "static/media/envelope-solid.svg": "/registration-app/static/media/envelope-solid.6345f82ededa4dc800949734956dc764.svg",
+    "static/media/google.svg": "/registration-app/static/media/google.dacf56a95d5e96471dd7eeac516fe87b.svg",
+    "static/media/lock-solid.svg": "/registration-app/static/media/lock-solid.458a297c54567e26784f7145cba0e06e.svg",
+    "static/media/fbIcon.svg": "/registration-app/static/media/fbIcon.330ae17a747b3c675c79d4ebbece418d.svg",
+    "static/media/user-solid.svg": "/registration-app/static/media/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.svg",
+    "main.e6c13ad2.css.map": "/registration-app/static/css/main.e6c13ad2.css.map",
+    "main.655e70a6.js.map": "/registration-app/static/js/main.655e70a6.js.map",
+    "787.9bc4801a.chunk.js.map": "/registration-app/static/js/787.9bc4801a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.655e70a6.js"
+  ]
+}
