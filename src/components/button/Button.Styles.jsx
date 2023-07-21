@@ -25,7 +25,4 @@ export const ButtonStyles = styled.button`
     justif-content: center;
     align-items: center;
   }
-  @media only screen and (max-width: 640px) {
-    flex: auto;
-  }
 `;

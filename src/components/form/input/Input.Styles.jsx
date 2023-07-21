@@ -25,6 +25,7 @@ export const InputStyles = styled.div`
       padding: 8px;
       img {
         height: 100%;
+        width: 100%;
       }
     }
     input {
