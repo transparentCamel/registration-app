@@ -4,9 +4,10 @@ export const FormStyles = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 128px 64px;
-  @media only screen and (max-width: 640px) {
-    padding: 64px 0px;
+  padding: 64px;
+
+  @media only screen and (max-width: 1280px) {
+    padding: 0px;
   }
 
   h1 {

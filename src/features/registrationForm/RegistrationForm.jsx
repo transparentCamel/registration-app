@@ -9,12 +9,9 @@ export default function RegistrationForm() {
   return (
     <RegistrationFormStyles>
       <div className='imageContainer'>
-        <div className='illustrationContainer'>
-          <img src={illustration} alt='Illustration' />
-        </div>
-
         <img src={logo} alt='logo' id='logo' />
-        <div className='overlay'></div>
+
+        <img src={illustration} alt='Illustration' />
       </div>
       <FormValidator>
         {(isFormValid, validateForm) => (

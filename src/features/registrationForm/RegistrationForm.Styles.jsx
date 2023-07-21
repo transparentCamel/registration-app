@@ -1,63 +1,51 @@
 import styled from 'styled-components';
 
 export const RegistrationFormStyles = styled.section`
+  @media only screen and (min-width: 1280px) {
+    width: 1440px;
+  }
+
   @media only screen and (max-width: 1280px) {
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 64px 0px;
     width: auto;
     border: none;
-    .imageContainer {
-      display: flex;
-      justify-content: center;
-    }
-    form {
-      display: flex;
-      flex: 1;
-      padding-right: 0px;
-      padding-left: 0px;
-    }
-    .overlay {
-      border-radius: 28px;
-    }
+    gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 
   display: flex;
 
   border: 2px solid #f2877d;
   border-radius: 32px;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0px 128px;
 
   .imageContainer {
-    position: relative;
-    padding: 128px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    padding: 64px;
     width: 50%;
-
-    .illustrationContainer {
-      height: 100%;
-      img:not(#logo) {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
+    background-color: #f2877d;
+    @media only screen and (max-width: 1280px) {
+      border-radius: 32px;
+      width: 100%;
+    }
+    @media only screen and (max-width: 640px) {
+      padding: 32px;
     }
     #logo {
-      position: absolute;
-      top: 0;
-      margin-top: 32px;
+      width: 40%;
     }
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+    img:not(#logo) {
       height: 100%;
-      background-color: #f2877d;
-      z-index: -1;
-      border-top-left-radius: 28px;
-      border-bottom-left-radius: 28px;
+      width: 100%;
+      object-fit: cover;
     }
   }
   form {
