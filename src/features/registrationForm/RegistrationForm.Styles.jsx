@@ -47,6 +47,24 @@ export const RegistrationFormStyles = styled.section`
       width: 100%;
       object-fit: cover;
     }
+    .messageContainer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        color: white;
+        text-align: center;
+        width: auto;
+        font-size: 32px;
+        padding: 0px 64px;
+        @media only screen and (max-width: 640px) {
+          font-size: 24px;
+          padding: 0px 16px;
+        }
+      }
+    }
   }
   form {
     width: 50%;

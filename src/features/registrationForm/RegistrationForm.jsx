@@ -10,8 +10,10 @@ export default function RegistrationForm() {
     <RegistrationFormStyles>
       <div className='imageContainer'>
         <img src={logo} alt='logo' id='logo' />
-
         <img src={illustration} alt='Illustration' />
+        <div className='messageContainer'>
+          <h2>Start for free & Get Attractive offers Today !</h2>
+        </div>
       </div>
       <FormValidator>
         {(isFormValid, validateForm) => (

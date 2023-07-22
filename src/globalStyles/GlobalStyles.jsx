@@ -22,10 +22,11 @@ export const GlobalStyles = createGlobalStyle`
    justify-content:center;
   height:100vh;
     width:100vw;
-    h1,h2{
+    h1{
       font-family: 'Poppins-Bold';
      }
-     p,a,input,label {
+    
+     p,a,input,label,h2 {
       font-family: 'Poppins-Regular';
      }
     @media only screen and (max-width: 1280px) {

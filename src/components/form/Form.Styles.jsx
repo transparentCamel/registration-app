@@ -5,19 +5,26 @@ export const FormStyles = styled.form`
   flex-direction: column;
   justify-content: space-between;
   padding: 64px;
+  margin-bottom: 64px;
 
   @media only screen and (max-width: 1280px) {
     padding: 0px;
   }
+  .topTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-  h1 {
-    margin: 0px;
-    font-size: 32px;
+    h1 {
+      margin-bottom: 16px;
+      font-size: 32px;
+    }
+    a {
+      text-decoration: none;
+      color: #f2877d;
+    }
   }
-  a {
-    text-decoration: none;
-    color: #f2877d;
-  }
+
   .btnContainer {
     display: flex;
     gap: 32px;

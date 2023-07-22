@@ -38,9 +38,12 @@ export default function Form() {
   };
   return (
     <FormStyles onSubmit={handleSubmit}>
-      <h1>Get Started</h1>
-      <p>Already have an account?</p>
-      <a href=''>sign in</a>
+      <div className='topTextContainer'>
+        <h1>Get Started</h1>
+        <p>Already have an account?</p>
+        <a href=''>sign in</a>
+      </div>
+
       <div className='btnContainer'>
         <Button icon={google} text={'sign up'} />
         <Button
